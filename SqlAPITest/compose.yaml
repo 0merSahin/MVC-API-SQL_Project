@@ -1,0 +1,28 @@
+services:
+  sql-server:
+    image: mcr.microsoft.com/azure-sql-edge
+    environment:
+      SA_PASSWORD: "reallyStrongPwd123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - 1433:1433
+    networks:
+      - my-network5
+    container_name: sql-server5  # SQL Server konteynerının adını belirledik
+
+  api-server:
+    build:
+      context: .
+      target: development
+      dockerfile: Dockerfile
+    depends_on:
+      - sql-server5
+    ports:
+      - 8084:80
+    networks:
+      - my-network5
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+networks:
+  my-network5:

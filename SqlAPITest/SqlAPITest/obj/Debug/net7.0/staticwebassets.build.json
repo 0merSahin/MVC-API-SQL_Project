@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rW7caL0hNwM1rEOFY9OrKzSpplT6hXhg/FkqwJ9AehY=",
+  "Source": "SqlAPITest",
+  "BasePath": "_content/SqlAPITest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

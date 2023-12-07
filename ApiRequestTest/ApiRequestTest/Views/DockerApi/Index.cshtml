@@ -1,0 +1,39 @@
+﻿@model List<ApiRequestTest.Entity.Product>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Docker API Product</title>
+</head>
+<body>
+    <h1>Product Information</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.ID</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <p>No product information available.</p>
+    }
+
+    @if (ViewBag.Error != null)
+    {
+        <p style="color: red;">An error occurred: @ViewBag.Error</p>
+    }
+</body>
+</html>
