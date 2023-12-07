@@ -1,2 +1,0 @@
-SqlAPITest -> Web API ama diğerinden daha gelişmiş.
-ApiRequestTest -> API kullanan MVC projesi.
