@@ -10,7 +10,6 @@ namespace SqlAPITest.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-
     public class ProductController : ControllerBase
     {
         private readonly SqlDbContext _context;

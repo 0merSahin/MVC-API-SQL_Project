@@ -3311,11 +3311,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/omersahin/Desktop/Docker_Server_Test_Projects/SqlAPITest/SqlAPITest/SqlAPITest.csproj",
+      "projectUniqueName": "/Users/omersahin/Drive'ım/DOTNET/Docker_Server_Test_Projects/SqlAPITest/SqlAPITest/SqlAPITest.csproj",
       "projectName": "SqlAPITest",
-      "projectPath": "/Users/omersahin/Desktop/Docker_Server_Test_Projects/SqlAPITest/SqlAPITest/SqlAPITest.csproj",
+      "projectPath": "/Users/omersahin/Drive'ım/DOTNET/Docker_Server_Test_Projects/SqlAPITest/SqlAPITest/SqlAPITest.csproj",
       "packagesPath": "/Users/omersahin/.nuget/packages/",
-      "outputPath": "/Users/omersahin/Desktop/Docker_Server_Test_Projects/SqlAPITest/SqlAPITest/obj/",
+      "outputPath": "/Users/omersahin/Drive'ım/DOTNET/Docker_Server_Test_Projects/SqlAPITest/SqlAPITest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/omersahin/.nuget/NuGet/NuGet.Config"

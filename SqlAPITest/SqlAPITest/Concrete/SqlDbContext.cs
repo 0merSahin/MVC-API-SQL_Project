@@ -9,7 +9,7 @@ namespace SqlAPITest.Concrete
 	{
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=sql-server5,1433;Initial Catalog=sql2;User ID=SA;Password=reallyStrongPwd123;TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("Data Source=localhost,1433;Initial Catalog=sql2;User ID=SA;Password=reallyStrongPwd123;TrustServerCertificate=true;");
         }
 
         public DbSet<Product> Products { get; set; }

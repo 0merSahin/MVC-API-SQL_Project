@@ -78,9 +78,9 @@ namespace ApiRequestTest.Controllers
                     return View();
                 }
             }
-
             return View(product);
         }
+
 
         private async Task<string> SendHttpPostRequest(string apiUrl, string jsonContent)
         {
